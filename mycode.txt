@@ -22,3 +22,14 @@ git pull, git merge staging - Para garantir que está trabalhando com o arquivo 
 	6. git pull
 	7. Mergiar(unir) o código da branch temporária com a branch princial (depois de testar)
 	8. git push da branch principal
+git checkout -b "nome da branch" master - cria a nova branch e já muda para ela
+	git branch
+	git add .
+	git status
+	git commit -m "O que foi alterado"
+	git checkout master
+	git pull
+	git merge branch
+	git push
+
+	
