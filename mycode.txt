@@ -12,3 +12,13 @@ git reset --hard "e o ID" - Vai voltar pra versão que você selecionou do ID se
 git branch - Exibe as branch 
 git branch "nome" - Add uma nova branch, não tem aspas
 git checkout "nome da branch" - Altera pra outra branch
+git checkout master, git branch, git merge staging, git push - Irá mesclar os arquivos das duas branchs
+git pull, git merge staging - Para garantir que está trabalhando com o arquivo atualizado daquela branch
+	1. git pull da branch principal
+	2. Gerar uma nova branch a partir da branch principal
+	3. Trabalhar e adicionar novas funcionalidades na nova branch que criou
+	4. Finalizar o trabalho na branch temporária
+	5. Git checkout na branch principal
+	6. git pull
+	7. Mergiar(unir) o código da branch temporária com a branch princial (depois de testar)
+	8. git push da branch principal
