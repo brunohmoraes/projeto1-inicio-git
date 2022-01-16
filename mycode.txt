@@ -1,0 +1,2 @@
+Git status - verificar como estão todos
+git add "nome do arquivo" - adiciona ele para iniciar a versionar
