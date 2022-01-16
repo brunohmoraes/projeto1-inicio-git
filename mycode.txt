@@ -6,3 +6,9 @@ git config - global user.name "nome" - para add o nome do cidadão
 git commit -m "commit inicial" - para inicar o processo de versão
 git remote add origin "link" - para onde o código vai ser enviado, não precisa das aspas
 git push --set-upstream origin master - manda tudo pro github
+git commit -m "o que foi adicionado na nova versão" - versionamento
+git reflog - Vai exibir a última versão e o que foi feito e a versão antes dela
+git reset --hard "e o ID" - Vai voltar pra versão que você selecionou do ID sem aspas - tbm serve pra voltar pra versão do "futuro"
+git branch - Exibe as branch 
+git branch "nome" - Add uma nova branch, não tem aspas
+git checkout "nome da branch" - Altera pra outra branch
