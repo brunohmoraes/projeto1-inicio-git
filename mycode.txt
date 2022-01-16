@@ -29,7 +29,9 @@ git checkout -b "nome da branch" master - cria a nova branch e já muda para ela
 	git commit -m "O que foi alterado"
 	git checkout master
 	git pull
-	git merge branch
+	git merge "branch"
 	git push
+touch .gitignore - Adiciona o arquivo
+	No arquivo do gitignore, você adiciona o caminho/arquivo a ser ignorado no upload para a plataforma
 
 	
