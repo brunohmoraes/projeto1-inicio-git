@@ -1,2 +1,8 @@
-Git status - verificar como estão todos
-git add "nome do arquivo" - adiciona ele para iniciar a versionar
+git status - verificar como estão todos
+git add "nome do arquivo" - adiciona o arquivo separado
+git add . - adiciona todos arquivos
+git config --global user.email "email@email.com" - para add o email
+git config - global user.name "nome" - para add o nome do cidadão
+git commit -m "commit inicial" - para inicar o processo de versão
+git remote add origin "link" - para onde o código vai ser enviado, não precisa das aspas
+git push --set-upstream origin master - manda tudo pro github
